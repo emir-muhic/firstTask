@@ -34,7 +34,7 @@ const Modal = (props) => {
 
 
     return (
-        <div className="overflow-y-auto overflow-x-hidden fixed z-50 bg-[#a6a6fff2] w-full md:inset-0 h-modal md:h-full">
+        <div className="overflow-y-auto overflow-x-hidden fixed z-50 bg-[#a6a6fff2] w-full inset-0 h-modal md:h-full">
             <div className="relative p-4 w-full max-w-md mx-auto top-2/4 -translate-y-2/4 h-full md:h-auto">
                 <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
                     <div className="py-6 px-6 lg:px-8">

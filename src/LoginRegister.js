@@ -66,7 +66,7 @@ const LoginRegister = () => {
         <div className="w-4/5 mx-auto">
             <h2 className="text-4xl text-center mb-20 mt-20 font-extrabold dark:text-white">Log in to see all posts</h2>
             <div className="mb-9 mt-9 flex justify-evenly" id="login">
-                <form onSubmit={loginHandler} className="lg:w-1/3 md:w-full sm:w-full">
+                <form onSubmit={loginHandler} className="w-full lg:w-1/3">
                     <h2 className="text-4xl mb-4 font-extrabold dark:text-white">Login</h2>
                     <div className="mb-6">
                         <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
@@ -84,7 +84,7 @@ const LoginRegister = () => {
                         <div className="word">or</div>                                        
                     </div>
                 </div>
-                <form onSubmit={signUpHandler} className="lg:w-1/3 md:w-full sm:w-full">
+                <form onSubmit={signUpHandler} className="w-full lg:w-1/3">
                     <h2 className="text-4xl mb-4 font-extrabold dark:text-white">Sign up</h2>
                     <div className="mb-6">
                         <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>

@@ -43,7 +43,7 @@ const Header = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="px-2 pt-2 pb-3 space-y-1">
+                    <div className="res-nav px-2 pt-2 pb-3 space-y-1">
                         <Nav />
                     </div>
                 </div>
